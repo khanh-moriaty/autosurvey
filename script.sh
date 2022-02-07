@@ -42,7 +42,6 @@ for url in $(cat survey.txt); do
     # &move=movenext&thisstep=$thisstep&sid=$sid&start_time=$start_time&LEMpostKey=$lempostkey&token=$token" $survey_url >output.txt
     # 2022
     curl -k -Ss -b cookies.txt -H "Content-Type: application/x-www-form-urlencoded" \
-
         -d "fieldnames=934395X1370X21458%7C934395X1370X21463%7C934395X1370X21464%7C934395X1370X21465\
     %7C934395X1370X21466A1%7C934395X1370X21466A2%7C934395X1370X21466A3%7C934395X1370X21466other\
     &934395X1370X21458=A3&java934395X1370X21458=A3&934395X1370X21463=A1&java934395X1370X21463=A1\
@@ -71,7 +70,6 @@ for url in $(cat survey.txt); do
     # 2022
 
     curl -k -Ss -b cookies.txt -H "Content-Type: application/x-www-form-urlencoded" \
-
         -d "fieldnames=934395X1372X21459MH01%7C934395X1372X21459MH02%7C934395X1372X21459MH03\
     %7C934395X1372X21459MH04%7C934395X1372X21459MH05%7C934395X1372X21459MH06%7C934395X1372X21459MH07\
     %7C934395X1372X21459MH08%7C934395X1372X21459MH09%7C934395X1372X21459MH10%7C934395X1372X21459MH11\
@@ -97,7 +95,6 @@ for url in $(cat survey.txt); do
     # 2022
 
     curl -k -Ss -b cookies.txt -H "Content-Type: application/x-www-form-urlencoded" \
-
         -d "fieldnames=934395X1373X21453%7C934395X1373X21461&934395X1373X21453=&934395X1373X21461=\
     &lastgroup=934395X1373&relevance21453=1&relevance21461=1&relevanceG3=1\
     &move=movenext&thisstep=$thisstep&sid=$sid&start_time=$start_time&LEMpostKey=$lempostkey&token=$token" $survey_url >output.txt
